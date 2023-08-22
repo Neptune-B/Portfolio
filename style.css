@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;1,100;1,200;1,300&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
+body {
+    margin: 0;
+    font-family:"Noto Serif" , "sans-serif" ; 
+}
+
+header {
+    box-shadow: 2px 1px 8px -3px #7e7e7e;
+}
+
+/* NAVBAR */
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.Accueil {
+    color: red;
+    padding: 0.5rem;
+}
+
+.fa-solid{
+    margin: 0.5rem;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav a {
+
+    padding: 2rem; 
+    transition: all 200ms;
+}
+
+nav a:hover {
+    transform: scale(1.02);
+    color: red;
+}
+
+/* ACCUEIL */
+
+h1 {
+    margin-left: 10rem;
+    margin-top: 8rem;
+    font-size: 4rem;
+}
+
+h1 span {
+    opacity:0;
+}
+
+.word01 {
+    animation:letters 3s ease 0000ms forwards;
+}
+
+.word02 {
+    animation:letters 3s ease 0500ms forwards;
+}
+
+.word03 {
+    animation:letters 3s ease 1000ms forwards;
+}
+
+.word04 {
+    animation:letters 3s ease 1500ms forwards;
+}
+
+.word05 {
+    animation:letters 3s ease 2000ms forwards;
+}
+
+@keyframes letters {
+	0% {opacity:0;}
+	100% {opacity:1.0;}
+}
